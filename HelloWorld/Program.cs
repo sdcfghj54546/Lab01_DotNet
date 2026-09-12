@@ -49,7 +49,13 @@
 // Console.Write("\nВведите ваш любимый предмет: ");
 // string subject = Console.ReadLine();
 // Console.WriteLine($"Отлично! {firstName} любит {subject}.");
-
+int a = 15;
+int b = 4;
+Console.WriteLine($"Сумма: {a + b}");
+Console.WriteLine($"Разность: {a - b}");
+Console.WriteLine($"Произведение: {a * b}");
+Console.WriteLine($"Частное (int): {a / b}");
+Console.WriteLine($"Остаток: {a % b}");
 
 
 
